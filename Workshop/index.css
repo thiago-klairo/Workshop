@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+}
+header{
+    background-color: rgb(23, 194, 171);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.container {
+    max-width: 100%;
+   margin:auto;
+}
+.title{
+ font-size: 26px;
+}
+
+section{
+    background-size: cover;
+    background-image: url("./images/people.jpg");
+    padding: 20px;
+    
+    overflow: hidden;
+    max-width: 100%;
+    
+}
+
+.formContainer{
+    background-color:#FFFFFFBB;
+    max-width: 230px;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+color: white;
+background-color:rgb(23, 194, 171) ;
+font-weight: bold;
+}
+/*Foi retirado a aparencia padrao dos naveradores
+foi preciso botar todos esses, pra abranger todos*/
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("./images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y:center ;
+}
+footer{
+    background-color: rgba(44, 44, 44, 0.993);
+    text-align: center;
+}
+
+.picture{
+    padding: 40px;
+    width: 160px;
+    height: 210px;
+    
+}
+.description {
+    color: white;
+    display: inline-block;
+    max-width:40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+    
+
+}
+
+.description h3{
+    font-size: 24px;
+}
